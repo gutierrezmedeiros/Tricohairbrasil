@@ -1,4 +1,5 @@
 .video__estudar-titulo {
+    text-align: center;
     padding-bottom: 1em;
     text-transform: uppercase;
 }
@@ -11,27 +12,46 @@
 .video__estudar {
     display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding:1em 0 1em 0;
+    padding: 0 0 3em 0;
+   
+    
+ 
+    
+
+}
+.video__estudar {
+    background-color: rgb(232, 232, 232);
 }
 
-@media screen and (min-width:720px) {
-    video__estudar {
+@media screen and (min-width:300px) {
+    .video__estudar {
         display:flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         padding-top:5em;
-        width: 560px;
+        width:auto;
         height: 315px;
-        padding: 0 0 0 5em;
+       
 
 
     }
 
-    .video-produto-apresentacao {
-        width:560px;
-        height:315px;
+  
+
+}
+
+
+@media screen and (min-width:1024px) {
+    .video__estudar {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top:5em;
+        width:auto;
+        height: 315px;
+        
+
 
     }
-
 }
