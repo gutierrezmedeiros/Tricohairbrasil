@@ -43,6 +43,19 @@
     margin: 1em;
 }
 
+.link-portifolio {
+
+    margin:1em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--cor-secundaria);
+    border:0.1em solid #FFFFFF;
+    border-radius:1em;
+    color:var(--cor-link);
+
+   
+}
+
 
 @media screen and (max-width:600px) {
 
@@ -60,6 +73,18 @@
         margin: 40px;
         border-radius: 5%;
         border:var(--cor-secundaria) solid 3px;
+    }
+    .link-portifolio {
+
+        margin:1em 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: var(--cor-secundaria);
+        border:0.1em solid #FFFFFF;
+        border-radius:1em;
+        color:var(--cor-link);
+    
+       
     }
    
   
