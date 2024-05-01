@@ -1,8 +1,9 @@
 .eu__quero {
-    background-color:var(--cor-de-verde);
+    background-color:var(--cor-de-verde-fundo);
     display:flex;
     flex-direction: column;
     align-items: center;
+    color:var(--cor-secundaria);
 }
 
 .distribuidores-titulo {
@@ -18,7 +19,6 @@
     display:flex;
     justify-content: center;
     align-items: center;
-   
 
 }
 
@@ -33,7 +33,7 @@
     cursor:pointer;
     margin: 40px;
     border-radius: 5%;
-    border:rgb(112, 147, 80) solid 3px;
+    border:var(--cor-secundaria) solid 3px;
 }
 
 
@@ -59,7 +59,7 @@
         cursor:pointer;
         margin: 40px;
         border-radius: 5%;
-        border:rgb(112, 147, 80) solid 3px;
+        border:var(--cor-secundaria) solid 3px;
     }
    
   

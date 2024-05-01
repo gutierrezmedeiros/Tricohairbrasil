@@ -2,8 +2,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: #a8cd8d;
-    color:var(--cor-primaria);
+    background-color:var(--cor-de-verde-fundo);
+    color:var(--cor-secundaria);
 }
  
 .destinado__titulo {

@@ -1,5 +1,6 @@
 .rodape {
   padding-bottom: 1em;
+  background-color: var(--cor-de-verde-fundo);
    
 }
 
@@ -47,6 +48,7 @@
     text-align: center;
     margin: 0 1em 0 1em;
     font-size: 1em;
+    color: var(--cor-secundaria);
 }
 
 @media screen and (min-width:720px) {

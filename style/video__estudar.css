@@ -2,6 +2,8 @@
     text-align: center;
     padding-bottom: 1em;
     text-transform: uppercase;
+    color: var(--cor-secundaria);
+    
 }
 
 .video-produto-apresentacao {
@@ -19,12 +21,13 @@
 .video__estudar {
     
     display:flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     padding: 0 0 3em 0;
+    
 }
 .video__estudar {
-    background-color: rgb(232, 232, 232);
+    background-color:var( --cor-de-verde-fundo);
 }
 
 @media screen and (min-width:300px) {
