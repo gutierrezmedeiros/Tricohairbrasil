@@ -11,7 +11,7 @@
 }
 
 .botao__perguntas-frequentes:hover {
-    color:var(--cor-secundaria);   
+    color:#a07e28;   
     background-color:var(--cor-de-verde-fundo);
     transition:500ms;
     

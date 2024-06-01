@@ -19,8 +19,13 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 }
+.lista-distribuidores-item:hover {
+    color: #a07e28;
+}
+
 
 .lista-estado {
     margin-right: 10em;
@@ -34,6 +39,7 @@
     margin: 40px;
     border-radius: 5%;
     border:var(--cor-secundaria) solid 3px;
+    cursor: pointer;
 }
 
 
@@ -44,16 +50,22 @@
 }
 
 .link-portifolio {
+    
 
-    margin:1em 1em;
+    margin:1em 2em;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: var(--cor-secundaria);
+    background-color:#a07e28;
     border:0.1em solid #FFFFFF;
     border-radius:1em;
     color:var(--cor-link);
+    padding: 1em 1em;
 
    
+}
+.link-portifolio:hover {
+    background-color: #013d3a;
+    transition: 1s;
 }
 
 
@@ -76,13 +88,15 @@
     }
     .link-portifolio {
 
+        font-size: 10px;
         margin:1em 1em;
         text-decoration: none;
         text-transform: uppercase;
-        background-color: var(--cor-secundaria);
+        background-color:green;
         border:0.1em solid #FFFFFF;
         border-radius:1em;
         color:var(--cor-link);
+        padding: 1em 1em;
     
        
     }

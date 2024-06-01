@@ -27,7 +27,14 @@
 .head-link {
     padding-left:1em ;
     color: var(--cor-secundaria);
+    transform: 1s;
 
+}
+
+.head-link:hover {
+    color: #a07e28;
+    transition-duration: 1s;
+    text-decoration: none;
 }
 
 @media screen and (min-width:360px) {
