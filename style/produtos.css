@@ -14,17 +14,13 @@
         max-width: 100%;
         width:50%;
         height:auto;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-right:1em ;
         border-radius: 5%;
         border:var(--cor-de-verde-fundo) solid 3px;
         cursor: pointer;
 }
 
-.produto-lista-imagem:hover {
-    
-
-}
 
 
 @media screen and (min-width:700px) {
